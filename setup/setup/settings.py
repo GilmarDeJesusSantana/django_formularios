@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'tempus_dominus',
     'passagens',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -116,3 +117,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+TEMPUS_DOMINUS_LOCALIZE = True
